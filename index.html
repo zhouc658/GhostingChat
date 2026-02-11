@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghosting Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="chatBox">
+        <!-- the chat header with the exit box, div for easier styling -->
+        <div class="chatHeader">
+            <button id="exitBtn">&larr;</button>
+            <h2>Raina</h2>
+        </div>
+        <br>
+        <br>
+
+        <div id="message">
+            <div class="message1">Hello, u free right now?</div>
+            <div class="message2">I want to ask you about something.</div>
+            <div class="message3">hello?....</div>
+        </div>
+    </div>
+
+    <!-- Reason box -->
+    <div id="reasonBox">
+        <h2>We that you are exiting the page, why do you not want to reply?</h2>
+        <button id="busyBtn">I'm busy, remind me later</button>
+        <input type="text" id="reasonInput" placeholder="Explain why you don't want to respond"> 
+        <button id="sendBtn">Send</button>
+    </div>
+
+    <!-- Optional: export library -->
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
